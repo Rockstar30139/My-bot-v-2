@@ -2,11 +2,11 @@ import { Colors } from "discord.js";
 
 const settings = {
   TOKEN: process.env.TOKEN || "Bot_Token",
-  PREFIX: process.env.PREFIX || "BotPrefix",
-  Owners: ["OwnersId", "OwnersId"],
+  PREFIX: process.env.PREFIX || ".",
+  Owners: ["1111521016796168192", "OwnersId"],
   Slash: {
     Global: false,
-    GuildID: process.env.GuildID || "Guild_Id",
+    GuildID: process.env.GuildID || "1036288434643406848",
   },
   embed: {
     color: Colors.Blurple,
